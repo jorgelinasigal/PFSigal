@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+.navbar-collapse{
+    display: grid;
+    justify-content: right;
+}
+
+
+.navbar-brand{
+    color: rgb(203, 188, 21);
+    font-family: 'Staatliches', cursive;
+
+}
+
+.nav-link{
+    color: rgb(3, 3, 0);
+    font-family: 'Staatliches', cursive;
+
+}
+
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.navbar-toggler-icon{
+    color: black;
+}
+
+.img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+}
+
+.img-fluid:hover {
+    filter: saturate(180%);
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+}
+
+
+.footer{
+    display: grid;
+    color: rgb(203, 188, 21);
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+
+}
+
+.btn-primary-1{
+    background-color: #3b5998;
+}
+
+.btn-primary-2{
+    background-color: #55acee;
+}
+
+.btn-primary-3{
+background-color: #ac2bac;
+}
+
+.btn-primary-4{
+    background-color: #ed302f;
+}
+
+.links a i{
+    color: white;
+}
+
+.nleft{
+    background-color: rgb(223, 212, 86);
+    text-align: center;
+}
+
+
+.nright{
+    background-color: rgb(223, 212, 86);
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    background-color: whitesmoke;
+    color: rgb(203, 188, 21);
+    text-decoration: underline;
+}
+
+
+
+.maps iframe{
+
+    width: 400px;
+    height: 300px;
+    margin: 0px 30px 0px 920px;
+
+}
+
+.contact{
+    display: flex;
+    font-family: 'Inter Tight', sans-serif;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    margin: 0px 920px 0px 30px;
+    justify-content: space-between;
+
+}
+
+.contact li{
+    width: 80px;
+    height: 50px;
+    list-style: none;
+
+}
+
+.contact button{
+    width: 50px;
+    height: 30px;
+
+}
+
+.sports h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter Tight', sans-serif;
+    padding: 20px 0px 30px 0px;
+}
+
+.competitive{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+
+.futbol{
+
+    background-image: url(../images/futbol.jpeg);
+    width: 650px;
+    height: 400px;
+    border-radius: 10px;
+    padding: auto;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    font-size: 20px;
+    
+    
+}
+
+.basquet{
+
+    background-image: url(../images/basuqte.jpg);
+    width: 650px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    font-size: 20px;
+    
+
+}
+
+.recreative{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    
+}
+
+
+.hockey{
+    background-image: url(../images/hockey.jpg);
+    width: 400px;
+    height: 275px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    font-size: 15px;
+
+
+}
+
+.volley{
+    background-image: url(../images/voley.webp);
+    width: 400px;
+    height: 275px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    font-size: 15px;
+    
+    
+   
+}
+
+.handball{
+    background-image: url(../images/handball.jpg);
+    width: 400px;
+    height: 275px;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    font-size: 15px;
+    
+    
+
+
+}
