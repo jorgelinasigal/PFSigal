@@ -1,0 +1,66 @@
+.title {
+    color: $amarillo;
+    font-family: $font2;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bg {
+    display: grid;
+    background-color: $background;
+    text-align: center;
+    
+}
+
+.bg h2 {
+    font-family: $font2;
+    text-decoration: underline;
+}
+
+.img1-fluid {
+    display: grid;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.img2-fluid {
+    display: grid;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    display: grid;
+    color: $amarillo;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: $transparent;
+}
+
+.btn-primary-1 {
+    background-color: $colorfb;
+}
+
+.btn-primary-2 {
+    background-color: $colortw;
+}
+
+.btn-primary-3 {
+    background-color: $colorig;
+}
+
+.btn-primary-4 {
+    background-color: $coloryt;
+}
+
+.links a i {
+    color: $social;
+}

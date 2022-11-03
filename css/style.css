@@ -1,239 +1,325 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-.navbar{
-    background-color: transparent;
-}
+.navbar {
+  background-color: whitesmoke; }
 
-.navbar-collapse{
-    display: grid;
-    justify-content: right;
-}
+.navbar-brand {
+  color: #cbbc15;
+  font-family: "Staatliches", cursive; }
 
+.navbar-toggler-icon {
+  color: black; }
 
-.navbar-brand{
-    color: rgb(203, 188, 21);
-    font-family: 'Staatliches', cursive;
+.navbar-collapse {
+  display: grid;
+  justify-content: right; }
 
-}
+.nav-link {
+  color: black;
+  font-family: "Staatliches", cursive; }
 
-.nav-link{
-    color: rgb(3, 3, 0);
-    font-family: 'Staatliches', cursive;
+.nav-link:hover {
+  text-decoration: underline; }
 
-}
-
-
-.nav-link:hover{
-    text-decoration: underline;
-}
-
-.navbar-toggler-icon{
-    color: black;
-}
-
-.img-fluid{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    overflow:hidden;
-}
-
-.img-fluid:hover {
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden; }
+  .img-fluid .img-fluid:hover {
     filter: saturate(180%);
-    -webkit-transform:scale(0.9);transform:scale(0.9);
-}
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); }
 
+.footer {
+  display: grid;
+  color: #cbbc15;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: whitesmoke; }
 
-.footer{
-    display: grid;
-    color: rgb(203, 188, 21);
-    text-align: center;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: whitesmoke;
+.btn-primary-1 {
+  background-color: #3b5998; }
 
-}
+.btn-primary-2 {
+  background-color: #55acee; }
 
-.btn-primary-1{
-    background-color: #3b5998;
-}
+.btn-primary-3 {
+  background-color: #ac2bac; }
 
-.btn-primary-2{
-    background-color: #55acee;
-}
+.btn-primary-4 {
+  background-color: #ed302f; }
 
-.btn-primary-3{
-background-color: #ac2bac;
-}
+.links a i {
+  color: white; }
 
-.btn-primary-4{
-    background-color: #ed302f;
-}
+.title {
+  color: #cbbc15;
+  font-family: "Inter Tight", sans-serif;
+  text-align: center;
+  text-decoration: underline; }
 
-.links a i{
-    color: white;
-}
+.bg {
+  display: grid;
+  background-color: yellow;
+  text-align: center; }
 
-.nleft{
-    background-color: rgb(223, 212, 86);
-    text-align: center;
-}
+.bg h2 {
+  font-family: "Inter Tight", sans-serif;
+  text-decoration: underline; }
 
+.img1-fluid {
+  display: grid;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto; }
 
-.nright{
-    background-color: rgb(223, 212, 86);
-    text-align: center;
-}
+.img2-fluid {
+  display: grid;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto; }
 
-.title{
-    text-align: center;
-    background-color: whitesmoke;
-    color: rgb(203, 188, 21);
-    text-decoration: underline;
-}
+.footer {
+  display: grid;
+  color: #cbbc15;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: whitesmoke; }
 
+.btn-primary-1 {
+  background-color: #3b5998; }
 
+.btn-primary-2 {
+  background-color: #55acee; }
 
-.maps iframe{
+.btn-primary-3 {
+  background-color: #ac2bac; }
 
-    width: 400px;
-    height: 300px;
-    margin: 0px 30px 0px 920px;
+.btn-primary-4 {
+  background-color: #ed302f; }
 
-}
+.links a i {
+  color: white; }
 
-.contact{
-    display: flex;
-    font-family: 'Inter Tight', sans-serif;
-    flex-direction: column;
-    width: 100px;
-    height: 100px;
-    margin: 0px 920px 0px 30px;
-    justify-content: space-between;
+.sports h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter Tight", sans-serif;
+  padding: 20px 0px 30px 0px;
+  color: #cbbc15; }
 
-}
+.competitive {
+  display: flex;
+  justify-content: space-between; }
 
-.contact li{
-    width: 80px;
-    height: 50px;
-    list-style: none;
+.futbol {
+  font-family: "Inter Tight", sans-serif;
+  color: white;
+  background-image: url(../images/futbol.jpeg);
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto; }
 
-}
+.basquet {
+  font-family: "Inter Tight", sans-serif;
+  color: white;
+  background-image: url(../images/basuqte.jpg);
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto; }
 
-.contact button{
-    width: 50px;
-    height: 30px;
+.recreative {
+  font-family: "Inter Tight", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  color: #cbbc15; }
 
-}
+.hockey {
+  font-family: "Inter Tight", sans-serif;
+  color: black;
+  background-image: url(../images/hockey.jpg);
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto; }
 
-.sports h2{
-    display: flex;
-    justify-content: center;
-    font-family: 'Inter Tight', sans-serif;
-    padding: 20px 0px 30px 0px;
-}
+.volley {
+  font-family: "Inter Tight", sans-serif;
+  color: white;
+  background-image: url(../images/voley.webp);
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto; }
 
-.competitive{
-    display: flex;
-    justify-content: space-between;
-    
-    
-}
+.handball {
+  font-family: "Inter Tight", sans-serif;
+  color: white;
+  background-image: url(../images/handball.jpg);
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 0px; }
 
+.footer {
+  display: grid;
+  color: #cbbc15;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: whitesmoke; }
 
-.futbol{
+.btn-primary-1 {
+  background-color: #3b5998; }
 
-    background-image: url(../images/futbol.jpeg);
-    width: 650px;
-    height: 400px;
-    border-radius: 10px;
-    padding: auto;
+.btn-primary-2 {
+  background-color: #55acee; }
+
+.btn-primary-3 {
+  background-color: #ac2bac; }
+
+.btn-primary-4 {
+  background-color: #ed302f; }
+
+.links a i {
+  color: white; }
+
+.fix h2 {
+  text-align: center;
+  color: #cbbc15;
+  text-decoration: underline;
+  font-family: "Inter Tight", sans-serif; }
+
+.table-responsive {
+  display: grid;
+  justify-content: center;
+  color: black;
+  background-color: yellow;
+  font-family: "Inter Tight", sans-serif; }
+
+.img3-fluid {
+  width: 100%;
+  height: 100%; }
+
+.img4-fluid {
+  width: 100%;
+  height: 100%; }
+
+.footer {
+  display: grid;
+  color: #cbbc15;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: whitesmoke; }
+
+.btn-primary-1 {
+  background-color: #3b5998; }
+
+.btn-primary-2 {
+  background-color: #55acee; }
+
+.btn-primary-3 {
+  background-color: #ac2bac; }
+
+.btn-primary-4 {
+  background-color: #ed302f; }
+
+.links a i {
+  color: white; }
+
+.title2 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Inter Tight", sans-serif;
+  color: #cbbc15; }
+
+.contc {
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto; }
+  .contc .iframe-responsive {
     position: relative;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    font-size: 20px;
-    
-    
-}
+    width: 340px;
+    height: 220px; }
+    .contc .iframe-responsive .contact {
+      font-family: "Inter Tight", sans-serif; }
+      .contc .iframe-responsive .contact .form-responsive {
+        font-family: "Inter Tight", sans-serif; }
 
-.basquet{
+.footer {
+  display: grid;
+  color: #cbbc15;
+  text-align: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: whitesmoke; }
 
-    background-image: url(../images/basuqte.jpg);
-    width: 650px;
-    height: 400px;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    font-size: 20px;
-    
+.btn-primary-1 {
+  background-color: #3b5998; }
 
-}
+.btn-primary-2 {
+  background-color: #55acee; }
 
-.recreative{
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: space-between;
-    
-}
+.btn-primary-3 {
+  background-color: #ac2bac; }
 
+.btn-primary-4 {
+  background-color: #ed302f; }
 
-.hockey{
-    background-image: url(../images/hockey.jpg);
-    width: 400px;
-    height: 275px;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    font-size: 15px;
-
-
-}
-
-.volley{
-    background-image: url(../images/voley.webp);
-    width: 400px;
-    height: 275px;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    font-size: 15px;
-    
-    
-   
-}
-
-.handball{
-    background-image: url(../images/handball.jpg);
-    width: 400px;
-    height: 275px;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    font-size: 15px;
-    
-    
-
-
-}
+.links a i {
+  color: white; }

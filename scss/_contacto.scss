@@ -1,0 +1,56 @@
+.title2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: $font2;
+    color: $amarillo;
+}
+
+.contc {
+    background-color: $background;
+    margin-left: auto;
+    margin-right: auto;
+
+    .iframe-responsive {
+        position: relative;
+        width: 340px;
+        height: 220px;
+
+        .contact {
+            font-family: $font2;
+
+            .form-responsive {
+                font-family: $font2;
+            }
+        }
+    }
+}
+
+.footer {
+    display: grid;
+    color: $amarillo;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: $transparent;
+}
+
+.btn-primary-1 {
+    background-color: $colorfb;
+}
+
+.btn-primary-2 {
+    background-color: $colortw;
+}
+
+.btn-primary-3 {
+    background-color: $colorig;
+}
+
+.btn-primary-4 {
+    background-color: $coloryt;
+}
+
+.links a i {
+    color: $social;
+}

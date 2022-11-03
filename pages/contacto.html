@@ -20,7 +20,7 @@
     <header>
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-                <a class="navbar-brand"><img src="../images/calp.jpg" alt="Logo" width="100" height="100"
+                <a class="navbar-brand"><img src="../images/calp.jpg" alt="logo" width="100" height="100"
                         class="d-inline-block align-text-center">CLUB ATLETICO LA PLATA</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar">
@@ -49,27 +49,53 @@
         </nav>
     </header>
 
-    <main>
-        <div class="maps">
-            <iframe src="https://maps.google.com/?ll=-34.91077616838053, -57.93243104841062&z=14&t=m&output=embed"></iframe>
+    <main class="cont container-fluid">
+        <div class="row">
+            <h1 class="title2">ACERCATE AL CLUB</h1>
+            <div class="contc col-sm">
+                <div class="contact">
+                    <h3>Estancia chica</h3>
+                    <p>202 e/483 y 494 – Abasto (1903) Tel: 54 (0221) 491-4702</p>
+                    <h3>Sede social</h3>
+                    <p>4 N° 979 al 987 – La Plata (1900) Tel: 54 011-5263-2341 Lun a vie de 12 a 20</p>
+                    <h3>Estadio Juan C. Zerillo</h3>
+                    <p>60 y 118 – La Plata (1900) Tel: 54 (0221) 421-4422</p>
+                </div>
+            </div>
+            <div class="contc col-sm">
+                <div class="maps row">
+                    <iframe class="iframe-responsive"
+                        src="https://maps.google.com/?ll=-34.91077616838053, -57.93243104841062&z=14&t=m&output=embed"></iframe>
+                </div>
+            </div>
         </div>
-        
-    <form class="contact">
-        <h1>Escribinos</h1>
-        <ul>
-            <li><label for="name">Nombre</label><input type="text"></li>
-            <li><label for="email">Email</label><input type="email"></li>
-            <li><label for="options">Consulta</label><select name="consulta">
-                <option value="general">General</option>
-                <option value="socios">Socios</option>
-                <option value="rrhh">RRHH</option></select></li>
-            <li><button type="submit">Enviar</button></li>
-        </ul>
+        <div class="row">
+            <div class="contc col-sm">
+                <form class="form-responsive row">
+                    <h4>Escribinos</h4>
+                    <div class="input-group">
+                        <span class="input-group-text">Nombre completo</span>
+                        <input type="text" aria-label="name" class="form-control">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">Email</span>
+                        <input type="text" aria-label="email" class="form-control">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" for="inputGroupSelect01">Motivo de consulta</label>
+                        <select class="form-select" id="inputGroupSelect01">
+                            <option selected>Seleccionar</option>
+                            <option value="1">General</option>
+                            <option value="2">Socios</option>
+                            <option value="3">Prensa</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
 
-            
-        
-            
-    </form>
+
     </main>
 
 
@@ -79,10 +105,14 @@
             <p>Los primeros platenses.</p>
             <p>Todos los derechos reservados.</p>
             <div class="links">
-                <a class="btn btn-primary-1" href="https://www.facebook.com/" role="button"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-primary-2" href="https://twitter.com/home" role="button"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-primary-3" href="https://www.instagram.com/" role="button"><i class="fab fa-instagram"></i></a>
-                <a class="btn btn-primary-4" href="https://www.youtube.com/" role="button"><i class="fab fa-youtube"></i></a>
+                <a class="btn btn-primary-1" href="https://www.facebook.com/" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-primary-2" href="https://twitter.com/home" role="button"><i
+                        class="fab fa-twitter"></i></a>
+                <a class="btn btn-primary-3" href="https://www.instagram.com/" role="button"><i
+                        class="fab fa-instagram"></i></a>
+                <a class="btn btn-primary-4" href="https://www.youtube.com/" role="button"><i
+                        class="fab fa-youtube"></i></a>
             </div>
     </footer>
 

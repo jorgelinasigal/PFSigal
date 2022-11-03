@@ -1,0 +1,56 @@
+.fix h2{
+    text-align: center;
+    color: $amarillo;
+    text-decoration: underline;
+    font-family: $font2;
+
+}
+
+.table-responsive{
+    display: grid;
+    justify-content: center;
+    color: black;
+    background-color: $background;
+    font-family: $font2;
+
+}
+.img3-fluid{
+    width: 100%;
+    height: 100%;
+}
+
+
+.img4-fluid{
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    display: grid;
+    color: $amarillo;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: $transparent;
+}
+
+.btn-primary-1 {
+    background-color: $colorfb;
+}
+
+.btn-primary-2 {
+    background-color: $colortw;
+}
+
+.btn-primary-3 {
+    background-color: $colorig;
+}
+
+.btn-primary-4 {
+    background-color: $coloryt;
+}
+
+.links a i {
+    color: $social;
+}

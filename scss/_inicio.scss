@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight&display=swap');
+
+
+.navbar {
+    background-color: $transparent;
+}
+
+.navbar-brand {
+    color: $amarillo;
+    font-family: $font1;
+}
+
+.navbar-toggler-icon {
+    color: $negro;
+}
+
+.navbar-collapse {
+    display: grid;
+    justify-content: right;
+}
+
+.nav-link {
+    color: $negro;
+    font-family: $font1;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+
+}
+
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+    .img-fluid:hover {
+        filter: saturate(180%);
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+
+
+.footer {
+    display: grid;
+    color: $amarillo;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: $transparent;
+}
+
+.btn-primary-1 {
+    background-color: $colorfb;
+}
+
+.btn-primary-2 {
+    background-color: $colortw;
+}
+
+.btn-primary-3 {
+    background-color: $colorig;
+}
+
+.btn-primary-4 {
+    background-color: $coloryt;
+}
+
+.links a i {
+    color: $social;
+}
