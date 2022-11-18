@@ -1,19 +1,26 @@
-.title2 {
-    text-align: center;
-    text-decoration: underline;
-    font-family: $font2;
-    color: $amarillo;
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+ 
+
+.cont{
+    background-image: linear-gradient($transparent,$background,$transparent);
+    .title2 {
+        text-align: center;
+        text-decoration: underline;
+        font-family: $font2;
+        color: $amarillo;
+    }
 }
 
 .contc {
-    background-color: $background;
     margin-left: auto;
     margin-right: auto;
 
     .iframe-responsive {
         position: relative;
-        width: 340px;
-        height: 220px;
+        @include sizes(340px, 220px);
 
         .contact {
             font-family: $font2;
@@ -52,5 +59,5 @@
 }
 
 .links a i {
-    color: $social;
+    color: $transparent;
 }
